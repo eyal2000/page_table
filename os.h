@@ -1,6 +1,9 @@
 
 #include <stdint.h>
 
+/* Starter driver code provided by course instructors.
+(This file was not written by me) */
+
 #define NO_MAPPING	(~0ULL)
 
 uint64_t alloc_page_frame(void);
