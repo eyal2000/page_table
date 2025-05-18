@@ -8,11 +8,8 @@ A C module that simulates a 64-bit, trie-based 5-level page table for an x86-lik
 - **Lookup translations**  
   Given a virtual page number, determine which physical page it maps to (or report “no mapping”).
 
-- **Handle sparse address spaces efficiently**  
+- **Handle address spaces efficiently**  
   Only the portion of the page-table trie needed by active mappings is ever allocated.
-
-- **Integrate with a simulated physical-memory manager**  
-  Uses provided helpers to allocate new page frames for page-table nodes and to translate physical addresses into usable pointers.
 
 ---
 
