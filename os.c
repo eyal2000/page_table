@@ -9,6 +9,9 @@
 
 #include "os.h"
 
+/* Starter driver code provided by course instructors.
+(This file was not written by me) */
+
 /* 2^20 pages ought to be enough for anybody */
 #define NPAGES	(1024*1024)
 
