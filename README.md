@@ -1,6 +1,6 @@
 # Multi-Level Page Table Simulator
 
-A C module that simulates a 64-bit, trie-based 5-level page table, providing:
+Module that simulates a 64-bit, trie-based 5-level page table, providing:
 
 - **Create & destroy mappings**
   Map or unmap any virtual page number (VPN) to a physical page number (PPN), automatically allocating or tearing down intermediate page-table levels as needed.
